@@ -23,7 +23,7 @@ public class StudentRestController {
         theStudents.add( new Student( "Luigi", "Mario" ) );
         theStudents.add( new Student( "Toad", "Mushroom" ) );
 
-        return null;
+        return theStudents;
     }
 
 }
